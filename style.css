@@ -1,0 +1,38 @@
+body {
+    background-image: radial-gradient(yellow,brown);
+}
+
+#image {
+    max-width: 1100px;
+    height: 300px;
+    margin-left: 200px;
+    border-radius: 10px;
+    background-image: url('https://images.unsplash.com/photo-1496243975092-6ec259c776e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBsYXB0b3B8ZW58MHx8MHx8&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: wheat;
+    text-shadow: 5px yellow;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    font-size: xxx-large;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+img {
+    padding: 15px;
+}
+
+.displayBox {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.scroll-box {
+    overflow-y: auto;
+    height: 500px;
+    float: left;
+    padding: 1rem;
+}
